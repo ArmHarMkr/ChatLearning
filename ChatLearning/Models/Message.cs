@@ -11,7 +11,7 @@ namespace ChatLearning.Models
         public string Text { get; set; }
 
         public DateTime When { get; set; } = DateTime.Now;
-        public int UserID { get;set; }
-        public virtual AppUser AppUser { get; set; }
+        public string UserID { get;set; }
+        public virtual AppUser Sender { get; set; }
     }
 }
