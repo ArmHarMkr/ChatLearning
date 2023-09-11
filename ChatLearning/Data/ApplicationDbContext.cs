@@ -11,6 +11,7 @@ namespace ChatLearning.Data
         {
         }
 
+        public DbSet<Message> Messages { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
