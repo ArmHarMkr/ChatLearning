@@ -1,5 +1,6 @@
 using ChatLearning.Data;
 using ChatLearning.Hubs;
+using ChatLearning.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
