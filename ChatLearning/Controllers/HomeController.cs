@@ -13,9 +13,9 @@ namespace ChatLearning.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         public readonly ApplicationDbContext _context;
-        public readonly UserManager<AppUser> _userManager;
+        public readonly UserManager<IdentityUser> _userManager;
 
-        public HomeController(ILogger<HomeController> logger, UserManager<AppUser> userManager, ApplicationDbContext context)
+        public HomeController(ILogger<HomeController> logger, UserManager<IdentityUser> userManager, ApplicationDbContext context)
         {
             _context = context;
             _logger = logger;
